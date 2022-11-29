@@ -94,6 +94,7 @@ hr {
   background: #eab12d;
   margin: 0;
   border: none;
+  opacity: 1 !important;
 }
 .block-margin {
   margin-bottom: 1.5em;
