@@ -361,3 +361,21 @@ transition: all .4s linear;
 .copyright {
   font-family: 'Open Sans', sans-serif;
 }
+.guaranted .col-md-4 .w-100 {
+  background: #101010;
+  padding: 15px;
+  box-shadow: 0 0 6px 0px #242222;
+  border-radius: 5px;
+  height: 100%;
+}
+.guaranted .col-md-4 .w-100 ul {
+  list-style: none;
+  padding: 0;
+}
+.guaranted .col-md-4 .w-100 h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.guaranted .col-md-4 {
+  margin-bottom: 15px;
+}
