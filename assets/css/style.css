@@ -379,3 +379,24 @@ transition: all .4s linear;
 .guaranted .col-md-4 {
   margin-bottom: 15px;
 }
+.page {
+  padding-top: 130px;
+}
+.sub_head {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.cn_regular {
+  margin-bottom: 15px;
+}
+.content_wrapperh .list li {
+  color: #000;
+  list-style-type: circle;
+  text-transform: lowercase;
+  color: #fff;
+}
+.content_wrapperh .list {
+  padding-left: 15px;
+}
