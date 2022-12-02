@@ -13,6 +13,11 @@
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
+<style>
+  p {
+    margin-bottom: 20px;
+  }
+</style>
 </head>
 <body class="page">
   
@@ -74,7 +79,7 @@
     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Rummy</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Teen Patti</button>
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#teenpatti" type="button" role="tab" aria-controls="teenpatti" aria-selected="false">Teen Patti</button>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
@@ -244,6 +249,36 @@ Rummy is a simple card game that is played with two or more players. It requires
 
 <img src="assets/img/crd7.png" class="sub_head">
   </div>
+  <div class="tab-pane fade" id="teenpatti" role="tabpanel" aria-labelledby="contact-tab">
+    <div class="sub_head">
+      Teen Patti
+    </div>
+            <p class="text-white">Teen Patti is a popular Indian gambling card game just like poker. It is normally played in a group of 3 to 6 persons and uses&nbsp;a 52-card pack without jokers. Each&nbsp;player is dealt three cards face down. Before the cards are dealt, the&nbsp;<b class="hcolr">boot</b>&nbsp;amount is decided and collected from each player. The boot amount is the minimum stake amount put in the&nbsp;<b class="hcolr">pot</b>, which is the money kept in the centre of the table. As the game progresses the pot money grows and is won by the&nbsp;<b class="hcolr">winner</b>&nbsp;of that hand. Winner is the player who remains in the game till the&nbsp;completion of the hand and has the best hand or the highest hand&nbsp;based on&nbsp;the cards ranking shown below.</p>
+            <p class="text-white">Ranking of the cards from high to low is:</p>
+            <ol class="" style="padding-left: 15px;">
+              <li class="text-white">Trail or Set (three of same rank),</li>
+              <li class="text-white">Pure sequence,</li>
+              <li class="text-white">Sequence (or run),</li>
+              <li class="text-white">Color,</li>
+              <li class="text-white">Pair (two cards of same rank), and</li>
+              <li class="text-white">High Card.</li>
+            </ol>
+            <p class="text-white">The figure below shows highest to lowest cards of each rank. It should be noted that in a sequence A-K-Q is the highest ranked sequence while A-2-3 is the second highest ranked sequence.</p>
+            <img style="border-radius: 6px;margin-bottom: 15px;" src="assets/img/sw.png" alt="">
+            <p class="text-white"><b class="hcolr">Playing Teen Patti.</b> Each player contributes the boot money and gets three cards facedown. Now it is the turn of the player next to the dealer in clockwise direction. The player has option to place a bet without seeing the cards <b class="hcolr">(blind)</b> or see the card. When the player sees his card, he/she can play <b class="hcolr">chaal</b> or may have other options depending upon the progress of the game. A player who places a blind bet is referred to as the <b class="hcolr">blind player.</b> A player who places his bet after seeing the cards is referred to as the <b class="hcolr">seen player.</b></p>
+            <p class="text-white"><b class="hcolr"><i>Blind Player.</i></b> To be blind player, you must not see your cards. You have options to play <b class="hcolr">Pack, Blind</b> and <b class="hcolr">Show</b> if available. To play Blind put the <b class="hcolr">bet</b> amount in the pot. The Blind bet amount is equal to the current <b class="hcolr">stake</b> amount or twice the current stake amount.  The current stake amount, in case of the first player, is the boot amount. Thus if the first player is a blind player, the player must bet amount equal to the boot amount or twice the boot amount.</p>
+            <p class="text-white"><i>Stake Amount.</i> The bet placed by a blind player becomes the stake amount for the next player while half of the bet placed by a seen player becomes the stake amount for the next player. In case of the next blind players, the bet amount can be equal to the stake amount or twice the stake amount.</p>
+            <p class="text-white">A blind player can ask for a Show only when there is one opponent remaining in the game. This is a blind show. After asking for show, the cards of both the players become visible and the winner gets the pot.</p>
+            <p class="text-white"><b class="hcolr"><i>Seen Player.</i></b> A seen player can play Chaal, Pack or may have other options. The other options that may be available to the seen player are Show and Side Show. Once you have seen your cards, to remain in the game, you must play chaal unless you select any other available option.</p>
+            <p class="text-white"><i>(a) Chaal.</i> To remain in the game, a seen player must play Chaal or Side Show if available. For chaal the player must put the bet amount in the bot. The bet amount for a seen player is equal to twice or four times the current stake amount. If the previous player is a blind player, the stake amount for next player is amount bet by the player. If the previous player is a seen player, the stake amount for next player is half the amount bet by the player.</p>
+            <p class="text-white"><i>(b) Side Show.</i> A seen player can ask for a Side Show. Side Show means that you wish to compare your cards with the cards of the previous player. You can do this only if the previous  player is also a seen player and there are one or more other players still in the game. For Side Show you put amount equal to twice the current stake in the pot. Your request for the Side Show is conveyed to the previous player. The previous player has option to accept or deny your Side Show request.</p>
+            <p class="text-white">If your Side Show request is accepted and the previous player has better cards than you, you must pack. If your cards are better than the previous player, the previous player must pack. After one of you have packed, the turn passes on to the next player.</p>
+            <p class="text-white">If your Side Show request is denied, you do not see each other’s cards and both of you remain in the game and the turn passes on to the next player. </p>
+            <p class="text-white"><b class="hcolr">Limited Stake and Unlimited Stake Tables.</b>&nbsp;When you play Teen Patti for the first time, you play on a limited stake table. On the first limited stake table that you play, the boot amount is 2, you can play maximum 4 blinds, the maximum Chaal that you can play is 256 and the Pot limit is 2048. When the Pot limit is reached, all players still in the game are forced to show their cards and the winner gets the Pot.</p>
+            <p class="text-white">In the next level limited table, the the boot amount is 4, you can play maximum 4 blinds, the maximum Chaal that you can play is&nbsp;512 and the Pot limit is 4096. Players who have played many hands and have many chips play on higher level tables.</p>
+      
+  </div>
+
 </div>
 
       </div>
