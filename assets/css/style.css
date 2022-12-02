@@ -189,6 +189,9 @@ position: revert;
   background: #eab12d !important;
   color: #000 !important;
 }
+.secured-tabs ul li button.active img, .secured-tabs ul li button:hover img {
+  filter: saturate(0) contrast(4);
+}
 .contact-form input, .contact-form textarea {
   width: 100%;
 }
