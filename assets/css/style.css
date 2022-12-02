@@ -479,20 +479,7 @@ justify-content: center;
   padding: 0;
   display: flex;
 }
-.howtoplay-btn li a {
-  background: transparent;
-  padding: 8px 35px;
-  color: #141414;
-  margin-right: 10px;
-  border-radius: 43px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  border: 1px solid #ebb22e;
-  color: #fff;
-  transition: all .4s linear;
-  position: relative;
-  z-index: 1;
-}
+
 .howtoplay-btn li a::before {
   content: "";
   display: block;
@@ -513,6 +500,41 @@ justify-content: center;
 }
 .howtoplay-btn li a:hover {
   color: #141414;
+}
+.how-tabs ul.nav.nav-tabs {
+  border: 0;
+}
+.how-tabs ul.nav.nav-tabs {
+  background: #242222;border-radius: 5px;
+}
+.how-tabs ul.nav.nav-tabs li button {
+  padding: 25px 10px;
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  line-height: normal;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-align: center;border-radius: 5px;
+  border-radius: 5px;
+text-transform: uppercase;
+}
+.how-tabs ul.nav.nav-tabs li {
+  width: 25%;
+}
+.how-tabs ul.nav.nav-tabs li button.active {
+  background: #eab12d;
+  color: #141414;
+}
+.how-tabs .tab-content {
+  background: #101010;
+  box-shadow: 0 0 6px 0px #242222;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 
