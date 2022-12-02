@@ -383,7 +383,7 @@ transition: all .4s linear;
   margin-bottom: 15px;
 }
 .page {
-  padding-top: 130px;
+  padding-top: 0px;
 }
 .sub_head {
   font-family: 'Open Sans', sans-serif;
@@ -452,4 +452,13 @@ justify-content: center;
 .dwn-btn:hover {
   background: #eab12d;
   color: #000;
+}
+.navbar.navbar-expand-lg.fixed-top.navbar-main {
+  position: static;padding: 0;
+}
+.navbar.navbar-expand-lg.fixed-top.navbar-main.scrolled {
+  position: fixed;
+}
+.page .container-fluid {
+  padding-top: 60px;
 }
