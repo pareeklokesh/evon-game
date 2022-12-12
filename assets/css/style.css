@@ -17,7 +17,8 @@ a {
 }
 nav .navbar-nav li a.nav-link {
   color: #fff;
-  font-weight: 600;
+  font-weight: 800;
+font-family: 'Open Sans', sans-serif;
 }
 .hero-overlay {
   position: absolute;
