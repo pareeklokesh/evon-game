@@ -546,3 +546,20 @@ justify-content: center;
 
 }
 
+@media (max-width: 580px) {
+  #testimonial .carousel-control-prev, #testimonial .carousel-control-next {
+  height: 30px;
+  width: 30px;
+  right: 39px;
+  left: inherit;
+  top: 52px;
+}
+#testimonial .carousel-control-next {
+  right: 15px;
+}
+#testimonial .carousel-control-prev span, #testimonial .carousel-control-next span {
+  font-size: 0;
+  width: 20px;
+}
+}
+
