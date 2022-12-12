@@ -552,6 +552,9 @@ justify-content: center;
 }
 
 @media (max-width: 580px) {
+  #testimonial .col-md-8 {
+  min-height: 323px;
+}
   .testimonial .testimonial-des {
   font-size: 14px;
 }
