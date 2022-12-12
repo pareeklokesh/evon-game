@@ -172,6 +172,7 @@ position: revert;
   width: 100%;
   font-family: Raleway, sans-serif;
   transition: all .4s linear;
+  font-family: 'Open Sans', sans-serif;
 }
 .secured-tabs ul li {
   display: block;
