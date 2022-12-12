@@ -525,6 +525,11 @@ justify-content: center;
 }
 
 
+@media (min-width: 991px) {
+  #testimonial .col-md-8 {
+  min-height: 251px;
+}
+}
 
 @media (max-width: 767px) {
   .howtoplay .col-md-4 {
