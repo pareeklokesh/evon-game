@@ -577,6 +577,9 @@ width: 100%;
 .section-mb {
   margin-bottom: 2em;
 }
+.downloadnow {
+  margin-top: 0px !important;
+}
 
 
 }
