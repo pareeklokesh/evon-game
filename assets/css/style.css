@@ -152,12 +152,12 @@ position: revert;
 .testimonial .testimonial-des, .testimonial p {
   color: #000;
 }
-.testimonial .carousel-item {
+/*.testimonial .carousel-item {
   display: none !important;
 }
 .testimonial .carousel-item.active {
   display: block !important;
-}
+}*/
 .secured-tabs ul li button {
   background: #242222 !important;
   border-radius: 2px !important;
