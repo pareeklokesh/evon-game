@@ -562,7 +562,7 @@ width: 100%;
 
 
 @media (min-width: 991px) {
-  #testimonial {
+  #testimonial, .testimonial .carousel-item {
   min-height: 251px;
 }
 }
@@ -615,7 +615,7 @@ padding-right: 5px;
 }
 
 @media (max-width: 580px) {
-  #testimonial  {
+  #testimonial, .testimonial .carousel-item  {
   min-height: 323px;
 }
   .testimonial .testimonial-des {
