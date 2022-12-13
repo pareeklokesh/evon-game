@@ -583,6 +583,18 @@ width: 100%;
 .downloadnow {
   margin-top: 0px !important;
 }
+.how-tabs ul.nav.nav-tabs li button {
+  width: 100%;
+  margin: 0;padding-left: 5px;
+padding-right: 5px;
+}
+.how-tabs ul.nav.nav-tabs li {
+  width: 50%;
+  padding: 0 8px;
+}
+.how-tabs ul.nav.nav-tabs li:nth-child(1), .how-tabs ul.nav.nav-tabs li:nth-child(2) {
+  margin-bottom: 16px;
+}
 
 
 }
