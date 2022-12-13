@@ -595,6 +595,9 @@ padding-right: 5px;
 .how-tabs ul.nav.nav-tabs li:nth-child(1), .how-tabs ul.nav.nav-tabs li:nth-child(2) {
   margin-bottom: 16px;
 }
+.page .container-fluid {
+  padding-top: 35px;
+}
 
 
 }
