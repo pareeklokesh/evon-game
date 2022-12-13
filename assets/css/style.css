@@ -550,6 +550,9 @@ width: 100%;
 /*footer *, .footer-top .text-white {
   color: #000 !important;
 }*/
+.text-justify {
+  text-align: justify;
+}
 
 
 @media (min-width: 991px) {
