@@ -553,6 +553,9 @@ width: 100%;
 .text-justify {
   text-align: justify;
 }
+.how-tabs p {
+  text-align: justify;
+}
 
 
 @media (min-width: 991px) {
