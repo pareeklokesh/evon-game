@@ -565,6 +565,9 @@ width: 100%;
 }
 
 @media (max-width: 767px) {
+  .how-tabs img {
+  width: 100%;
+}
   .howtoplay .col-md-4 {
   margin-bottom: 40px;
 }
