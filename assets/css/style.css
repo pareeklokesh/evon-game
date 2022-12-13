@@ -158,6 +158,9 @@ position: revert;
 .testimonial .carousel-item.active {
   display: block !important;
 }*/
+#testimonial {
+  position: static;
+}
 .secured-tabs ul li button {
   background: #242222 !important;
   border-radius: 2px !important;
@@ -559,7 +562,7 @@ width: 100%;
 
 
 @media (min-width: 991px) {
-  #testimonial .col-md-8 {
+  #testimonial {
   min-height: 251px;
 }
 }
@@ -567,6 +570,9 @@ width: 100%;
 @media (max-width: 767px) {
   .how-tabs img {
   width: 100%;
+}
+.testimonial-md {
+  padding: 0;
 }
   .howtoplay .col-md-4 {
   margin-bottom: 40px;
@@ -609,7 +615,7 @@ padding-right: 5px;
 }
 
 @media (max-width: 580px) {
-  #testimonial .col-md-8 {
+  #testimonial  {
   min-height: 323px;
 }
   .testimonial .testimonial-des {
