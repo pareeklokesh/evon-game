@@ -376,9 +376,9 @@ transition: all .4s linear;
   font-family: 'Open Sans', sans-serif;
 }
 .guaranted .col-md-6 .w-100 {
-  background: #101010;
+  background: #1c2935;
   padding: 15px;
-  box-shadow: 0 0 6px 0px #242222;
+  /*box-shadow: 0 0 6px 0px #242222;*/
   border-radius: 5px;
   height: 100%;
 }
@@ -391,7 +391,7 @@ transition: all .4s linear;
   margin-bottom: 15px;
 }
 .guaranted .col-md-6 {
-  margin-bottom: 15px;
+  margin-bottom: 22px;
 }
 .page {
   padding-top: 0px;
