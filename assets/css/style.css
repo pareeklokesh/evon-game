@@ -559,12 +559,57 @@ width: 100%;
 .how-tabs p {
   text-align: justify;
 }
+.mobile-view {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background: #141414;
+  box-shadow: 0 0 6px 3px rgba(0, 0, 0, .3);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-footer {
+  display: flex;
+  align-items: center;
+}
+.download-footer {
+  width: 90%;
+  margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Trim-Bold';
+  border: 0;
+  padding: 5px 5px;
+  border: 1px solid #310813;
+  border-radius: 5px;
+  color: #141414;
+  width: auto;
+  float: right;
+  font-family: "Segoe UI";
+  font-size: 14px;font-weight: 700;
+}
+.download-footer img {
+  margin-right: 5px;
+}
+
+
+
 
 
 @media (min-width: 991px) {
   #testimonial, .testimonial .carousel-item {
   min-height: 251px;
 }
+.mobile-view {display: none;}
 }
 
 @media (max-width: 767px) {
