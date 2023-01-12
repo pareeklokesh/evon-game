@@ -600,6 +600,14 @@ width: 100%;
 .download-footer img {
   margin-right: 5px;
 }
+.download-now-btn {
+  background: #eab12d;
+  border-radius: 25px;
+  color: #141414 !important;
+  margin-left: 10px;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+}
 
 
 
